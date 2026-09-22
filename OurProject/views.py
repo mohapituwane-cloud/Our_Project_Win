@@ -3,4 +3,5 @@ from django.http import HttpResponse
 
 
 def page1(request):
-    return HttpResponse("Hello my people")
+    return render(request, 'index.html')
+
